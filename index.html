@@ -646,6 +646,24 @@
       width: 0%;
       transition: width 0.1s;
     }
+
+    /* Certificate Section */
+    .certificate-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 1s forwards 0.7s;
+    }
+    .certificate-image {
+      max-width: 73%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      object-fit: contain;
+    }
   </style>
 </head>
 <body>
@@ -974,6 +992,22 @@
             revolutionize podcast creation, making high-quality production seamless for creators.
           </p>
         </div>
+      </div>
+    </div>
+    <div class="pattern"></div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="mouse-wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate Section -->
+  <section class="light-blue-bg" id="certificate">
+    <div class="container">
+      <h2>Certificate</h2>
+      <div class="certificate-container">
+        <img src="public/certificate.png" alt="Certificate" class="certificate-image">
       </div>
     </div>
     <div class="pattern"></div>
